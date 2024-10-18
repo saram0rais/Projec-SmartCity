@@ -721,3 +721,4 @@ C:\ProgramasFiap\smartcity-main (1)\smartcity-main\obj\Debug\net8.0\SmartCitySec
 C:\ProgramasFiap\smartcity-main (1)\smartcity-main\obj\Debug\net8.0\SmartCitySecurity.MvcApplicationPartsAssemblyInfo.cache
 C:\ProgramasFiap\smartcity-main (1)\smartcity-main\obj\Debug\net8.0\SmartCitySecurity.RazorAssemblyInfo.cache
 C:\ProgramasFiap\smartcity-main (1)\smartcity-main\obj\Debug\net8.0\SmartCitySecurity.RazorAssemblyInfo.cs
+C:\ProgramasFiap\smartcity-main (1)\smartcity-main\obj\Debug\net8.0\SmartCitySecurity.sourcelink.json
