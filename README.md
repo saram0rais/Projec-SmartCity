@@ -6,7 +6,7 @@ Bem-vindo à nossa API para gestão de segurança em cidades inteligentes! 🚀
 
 Antes de tudo, vamos garantir que você tenha as ferramentas necessárias para rodar a aplicação. Você vai precisar de:
 
-- **SDK VERSION 7.0**
+- **SDK VERSION 8**
 - **Git**
 - **Docker**
 
@@ -25,6 +25,7 @@ Além disso, você encontrará alguns arquivos de configuração importantes:
 - **Dockerfile**: Este arquivo diz ao Docker como construir a imagem.
 - **compose.yaml**: Configurações dos serviços do Docker.
 - **SmartCitySecurity.csproj**: Configurações específicas para o seu ambiente de desenvolvimento.
+- **requirements.txt** e **pom.xml**: Listas de dependências para gerenciar as bibliotecas que usamos.
 
 ## Inicializando e Executando o Projeto
 
@@ -34,31 +35,32 @@ Vamos lá! Aqui estão os passos para você colocar a aplicação para rodar:
 
    Primeiro, pegue uma cópia do nosso projeto. Use o comando abaixo:
 
-```sh
-   git clone https://github.com/saram0rais/Project-SmartCity.git
-```
+   ```sh
+   git clone git clone https://github.com/saram0rais/Project-SmartCity.git
+   ```
 
 2. **Acesse o diretório do projeto:**
 
    Navegue até a pasta onde você clonou o projeto:
 
- ```sh
+   ```sh
    cd Project-SmartCity
-```
+   ```
 
 3. **Inicie a aplicação com Docker:**
 
    Agora, é hora de colocar tudo para funcionar! Execute o seguinte comando:
 
-```sh
+   ```sh
    docker compose up --build
-```
+   ```
 
    Isso vai construir as imagens necessárias e iniciar os serviços que definimos.
 
 4. **Verifique se tudo está rodando:**
 
    Após a inicialização, você pode acessar a API em `http://localhost:8080/index.html`. Faça um teste!
+
 ## Testes Unitários
 
 Quer garantir que tudo está funcionando? Execute os testes unitários com este comando:
@@ -75,5 +77,3 @@ Abra o Test Explorer (Visualizar > Testes) para ver os testes disponíveis e seu
 Ah, e não se esqueça de conferir a documentação da API! Você pode acessá-la através da interface do Swagger em:
 
 [Swagger UI](http://localhost:8080/index.html)
-
-![](/assets/images/swagger.png)
